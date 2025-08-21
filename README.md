@@ -58,9 +58,15 @@ npm test
 - `test` — Testes automatizados
 
 
+
 ## Relatórios Allure
 
 Os testes geram relatórios detalhados com o Allure.
+
+### Visualização online (GitHub Pages)
+
+Após cada execução da pipeline, o relatório Allure fica disponível visualmente em:
+**[Relatório Allure - GitHub Pages](https://renatacpf.github.io/login-api-automation/)**
 
 ### Como gerar e visualizar o relatório localmente
 
