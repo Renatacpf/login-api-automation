@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Aug 21 01:23:11 GMT 2025","Thu Aug 21 01:23:11 GMT 2025","22","","Login API","","Login API","Login com credenciais válidas (200 e token fake)","Login com credenciais válidas (200 e token fake)",""
+"passed","Thu Aug 21 01:23:11 GMT 2025","Thu Aug 21 01:23:11 GMT 2025","2","","Login API","","Login API","Controller está isolado do Service (mock com Sinon)","Controller está isolado do Service (mock com Sinon)",""
+"passed","Thu Aug 21 01:23:11 GMT 2025","Thu Aug 21 01:23:11 GMT 2025","2","","Login API","","Login API","Login com usuário inexistente","Login com usuário inexistente",""
+"passed","Thu Aug 21 01:23:11 GMT 2025","Thu Aug 21 01:23:11 GMT 2025","3","","Login API","","Login API","Login com senha incorreta","Login com senha incorreta",""
+"passed","Thu Aug 21 01:23:11 GMT 2025","Thu Aug 21 01:23:11 GMT 2025","2","","Login API","","Login API","Requisição sem login/senha","Requisição sem login/senha",""
