@@ -38,6 +38,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./allure-report   # 🚀 publica só o último relatório
+          publish_dir: ./allure-report
           publish_branch: gh-pages
-          clean: true
+          keep_files: false
