@@ -2,3 +2,11 @@ node_modules/
 .env
 coverage/
 .DS_Store
+
+# Exclui arquivos de variáveis de ambiente
+.env
+.env.*
+
+# Allure
+/allure-report/
+/allure-results/
