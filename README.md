@@ -66,7 +66,11 @@ Os testes geram relatórios detalhados com o Allure.
 ### Visualização online (GitHub Pages)
 
 Após cada execução da pipeline, o relatório Allure fica disponível visualmente em:
+
 **[Relatório Allure - GitHub Pages](https://renatacpf.github.io/login-api-automation/)**
+
+> ⚠️ **Atenção:**
+> Na primeira vez, é necessário acessar as configurações do repositório no GitHub, ir em **Settings > Pages**, selecionar a branch `gh-pages` como fonte e salvar. Após isso, o relatório ficará disponível automaticamente após cada pipeline.
 
 ### Como gerar e visualizar o relatório localmente
 
