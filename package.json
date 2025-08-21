@@ -5,16 +5,21 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "test": "mocha --exit"
+    "test": "mocha --reporter mocha-allure-reporter --exit",
+    "allure:generate": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open allure-report"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "swagger-ui-express": "^5.0.1"
   },
   "devDependencies": {
+    "allure-commandline": "^2.34.1",
     "chai": "^4.3.7",
     "mocha": "^10.2.0",
+    "mocha-allure-reporter": "^1.4.0",
     "sinon": "^17.0.1",
     "supertest": "^6.3.4"
   }
